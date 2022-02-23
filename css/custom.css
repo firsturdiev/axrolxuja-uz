@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.partners__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partners__item {
+  width: 15%;
+  flex-grow: 1;
+}
+
+.partners__link {
+  display: flex;
+}
+
+.projects__iframe {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+#section-counter {
+  margin-bottom: 3em;
+}
