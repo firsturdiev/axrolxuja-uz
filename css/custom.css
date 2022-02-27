@@ -76,6 +76,10 @@ a {
   background-image: url("../images/icon-telegram.svg");
 }
 
+.footer__link {
+  text-decoration: underline;
+}
+
 /* MEDIA */
 
 @media screen and (min-width: 768px) {
