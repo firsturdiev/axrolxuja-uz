@@ -10386,6 +10386,11 @@ h1, h2, h3, h4, h5,
 .ftco-partner {
   padding: 4em 0 !important;
 }
+@media (max-width: 768px) {
+  .ftco-partner {
+    padding: 0 !important;
+  }
+}
 .ftco-partner .partner {
   display: block;
   padding: 0 20px;
@@ -10448,7 +10453,7 @@ h1, h2, h3, h4, h5,
   color: #fcc201;
 }
 .services-1 .desc p {
-  color: #e9dada;
+  color: rgb(233, 218, 218);
 }
 .services-1:hover {
   background: #fcc201;
@@ -10460,7 +10465,7 @@ h1, h2, h3, h4, h5,
   color: #202124;
 }
 .services-1:hover h3:after {
-  background: #e9dada;
+  background: rgb(233, 218, 218);
 }
 .services-1:hover .desc p {
   color: #202124;
@@ -10909,7 +10914,7 @@ textarea.form-control {
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
-  color: black;
+  color: rgb(0, 0, 0);
   letter-spacing: 3px;
 }
 .heading-section h1.big {
@@ -11004,7 +11009,7 @@ textarea.form-control {
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
-  color: #e9dada;
+  color: rgb(233, 218, 218);
 }
 @media (max-width: 767.98px) {
   .ftco-counter .counter-wrap {
